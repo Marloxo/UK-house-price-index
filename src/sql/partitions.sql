@@ -1,0 +1,110 @@
+CREATE TABLE house_price_index_y1968 PARTITION OF house_price_index
+    FOR VALUES FROM ('1968-01-01') TO ('1969-01-01');
+CREATE TABLE house_price_index_y1969 PARTITION OF house_price_index
+    FOR VALUES FROM ('1969-01-01') TO ('1970-01-01');
+CREATE TABLE house_price_index_y1970 PARTITION OF house_price_index
+    FOR VALUES FROM ('1970-01-01') TO ('1971-01-01');
+CREATE TABLE house_price_index_y1971 PARTITION OF house_price_index
+    FOR VALUES FROM ('1971-01-01') TO ('1972-01-01');
+CREATE TABLE house_price_index_y1972 PARTITION OF house_price_index
+    FOR VALUES FROM ('1972-01-01') TO ('1973-01-01');
+CREATE TABLE house_price_index_y1973 PARTITION OF house_price_index
+    FOR VALUES FROM ('1973-01-01') TO ('1974-01-01');
+CREATE TABLE house_price_index_y1974 PARTITION OF house_price_index
+    FOR VALUES FROM ('1974-01-01') TO ('1975-01-01');
+CREATE TABLE house_price_index_y1975 PARTITION OF house_price_index
+    FOR VALUES FROM ('1975-01-01') TO ('1976-01-01');
+CREATE TABLE house_price_index_y1976 PARTITION OF house_price_index
+    FOR VALUES FROM ('1976-01-01') TO ('1977-01-01');
+CREATE TABLE house_price_index_y1977 PARTITION OF house_price_index
+    FOR VALUES FROM ('1977-01-01') TO ('1978-01-01');
+CREATE TABLE house_price_index_y1978 PARTITION OF house_price_index
+    FOR VALUES FROM ('1978-01-01') TO ('1979-01-01');
+CREATE TABLE house_price_index_y1979 PARTITION OF house_price_index
+    FOR VALUES FROM ('1979-01-01') TO ('1980-01-01');
+CREATE TABLE house_price_index_y1980 PARTITION OF house_price_index
+    FOR VALUES FROM ('1980-01-01') TO ('1981-01-01');
+CREATE TABLE house_price_index_y1981 PARTITION OF house_price_index
+    FOR VALUES FROM ('1981-01-01') TO ('1982-01-01');
+CREATE TABLE house_price_index_y1982 PARTITION OF house_price_index
+    FOR VALUES FROM ('1982-01-01') TO ('1983-01-01');
+CREATE TABLE house_price_index_y1983 PARTITION OF house_price_index
+    FOR VALUES FROM ('1983-01-01') TO ('1984-01-01');
+CREATE TABLE house_price_index_y1984 PARTITION OF house_price_index
+    FOR VALUES FROM ('1984-01-01') TO ('1985-01-01');
+CREATE TABLE house_price_index_y1985 PARTITION OF house_price_index
+    FOR VALUES FROM ('1985-01-01') TO ('1986-01-01');
+CREATE TABLE house_price_index_y1986 PARTITION OF house_price_index
+    FOR VALUES FROM ('1986-01-01') TO ('1987-01-01');
+CREATE TABLE house_price_index_y1987 PARTITION OF house_price_index
+    FOR VALUES FROM ('1987-01-01') TO ('1988-01-01');
+CREATE TABLE house_price_index_y1988 PARTITION OF house_price_index
+    FOR VALUES FROM ('1988-01-01') TO ('1989-01-01');
+CREATE TABLE house_price_index_y1989 PARTITION OF house_price_index
+    FOR VALUES FROM ('1989-01-01') TO ('1990-01-01');
+CREATE TABLE house_price_index_y1990 PARTITION OF house_price_index
+    FOR VALUES FROM ('1990-01-01') TO ('1991-01-01');
+CREATE TABLE house_price_index_y1991 PARTITION OF house_price_index
+    FOR VALUES FROM ('1991-01-01') TO ('1992-01-01');
+CREATE TABLE house_price_index_y1992 PARTITION OF house_price_index
+    FOR VALUES FROM ('1992-01-01') TO ('1993-01-01');
+CREATE TABLE house_price_index_y1993 PARTITION OF house_price_index
+    FOR VALUES FROM ('1993-01-01') TO ('1994-01-01');
+CREATE TABLE house_price_index_y1994 PARTITION OF house_price_index
+    FOR VALUES FROM ('1994-01-01') TO ('1995-01-01');
+CREATE TABLE house_price_index_y1995 PARTITION OF house_price_index
+    FOR VALUES FROM ('1995-01-01') TO ('1996-01-01');
+CREATE TABLE house_price_index_y1996 PARTITION OF house_price_index
+    FOR VALUES FROM ('1996-01-01') TO ('1997-01-01');
+CREATE TABLE house_price_index_y1997 PARTITION OF house_price_index
+    FOR VALUES FROM ('1997-01-01') TO ('1998-01-01');
+CREATE TABLE house_price_index_y1998 PARTITION OF house_price_index
+    FOR VALUES FROM ('1998-01-01') TO ('1999-01-01');
+CREATE TABLE house_price_index_y1999 PARTITION OF house_price_index
+    FOR VALUES FROM ('1999-01-01') TO ('2000-01-01');
+CREATE TABLE house_price_index_y2000 PARTITION OF house_price_index
+    FOR VALUES FROM ('2000-01-01') TO ('2001-01-01');
+CREATE TABLE house_price_index_y2001 PARTITION OF house_price_index
+    FOR VALUES FROM ('2001-01-01') TO ('2002-01-01');
+CREATE TABLE house_price_index_y2002 PARTITION OF house_price_index
+    FOR VALUES FROM ('2002-01-01') TO ('2003-01-01');
+CREATE TABLE house_price_index_y2003 PARTITION OF house_price_index
+    FOR VALUES FROM ('2003-01-01') TO ('2004-01-01');
+CREATE TABLE house_price_index_y2004 PARTITION OF house_price_index
+    FOR VALUES FROM ('2004-01-01') TO ('2005-01-01');
+CREATE TABLE house_price_index_y2005 PARTITION OF house_price_index
+    FOR VALUES FROM ('2005-01-01') TO ('2006-01-01');
+CREATE TABLE house_price_index_y2006 PARTITION OF house_price_index
+    FOR VALUES FROM ('2006-01-01') TO ('2007-01-01');
+CREATE TABLE house_price_index_y2007 PARTITION OF house_price_index
+    FOR VALUES FROM ('2007-01-01') TO ('2008-01-01');
+CREATE TABLE house_price_index_y2008 PARTITION OF house_price_index
+    FOR VALUES FROM ('2008-01-01') TO ('2009-01-01');
+CREATE TABLE house_price_index_y2009 PARTITION OF house_price_index
+    FOR VALUES FROM ('2009-01-01') TO ('2010-01-01');
+CREATE TABLE house_price_index_y2010 PARTITION OF house_price_index
+    FOR VALUES FROM ('2010-01-01') TO ('2011-01-01');
+CREATE TABLE house_price_index_y2011 PARTITION OF house_price_index
+    FOR VALUES FROM ('2011-01-01') TO ('2012-01-01');
+CREATE TABLE house_price_index_y2012 PARTITION OF house_price_index
+    FOR VALUES FROM ('2012-01-01') TO ('2013-01-01');
+CREATE TABLE house_price_index_y2013 PARTITION OF house_price_index
+    FOR VALUES FROM ('2013-01-01') TO ('2014-01-01');
+CREATE TABLE house_price_index_y2014 PARTITION OF house_price_index
+    FOR VALUES FROM ('2014-01-01') TO ('2015-01-01');
+CREATE TABLE house_price_index_y2015 PARTITION OF house_price_index
+    FOR VALUES FROM ('2015-01-01') TO ('2016-01-01');
+CREATE TABLE house_price_index_y2016 PARTITION OF house_price_index
+    FOR VALUES FROM ('2016-01-01') TO ('2017-01-01');
+CREATE TABLE house_price_index_y2017 PARTITION OF house_price_index
+    FOR VALUES FROM ('2017-01-01') TO ('2018-01-01');
+CREATE TABLE house_price_index_y2018 PARTITION OF house_price_index
+    FOR VALUES FROM ('2018-01-01') TO ('2019-01-01');
+CREATE TABLE house_price_index_y2019 PARTITION OF house_price_index
+    FOR VALUES FROM ('2019-01-01') TO ('2020-01-01');
+CREATE TABLE house_price_index_y2020 PARTITION OF house_price_index
+    FOR VALUES FROM ('2020-01-01') TO ('2021-01-01');
+CREATE TABLE house_price_index_y2021 PARTITION OF house_price_index
+    FOR VALUES FROM ('2021-01-01') TO ('2022-01-01');
+CREATE TABLE house_price_index_y2022 PARTITION OF house_price_index
+    FOR VALUES FROM ('2022-01-01') TO ('2023-01-01');

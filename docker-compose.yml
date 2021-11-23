@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  db:
+    restart: unless-stopped
+    image: postgres:13
+    deploy:
+      placement:
+          constraints: [node.role == manager]
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    expose:
+      - 5432
+    env_file:
+      - database.env
+    networks:
+      - app_backend
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 5s
+      retries: 5
+
+  app:
+    image: gcr.io/bigpay/app:latest
+    deploy:
+      placement:
+          constraints: [node.role == manager]
+    command: /bin/sh -c "sleep infinity"
+    environment:
+      - "PYTHONUNBUFFERED=1"
+    volumes:
+      - ./src:/src
+      - ./tests:/tests
+      - ./data/raw:/data/raw
+      - ./data/output:/data/output
+      - ./secret/database.ini:/secret/database.ini
+    networks:
+      - app_backend
+
+networks:
+  app_backend:
+    external: false
